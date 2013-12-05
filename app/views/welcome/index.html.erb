@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+    <style>
+    
+
+    
+    /*FUTURETTES DIVIDE*/
+    .featurette-divider {
+        margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      }
+      .featurette {
+        padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+        overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      }
+      .featurette-image {
+        margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      }
+
+      /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+      .featurette-image.pull-left {
+        margin-right: 40px;
+      }
+      .featurette-image.pull-right {
+        margin-left: 40px;
+      }
+
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -1px;
+      }
+
+
+    </style>
+
+  </head>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div class=row>
+      <div class="col-sm-1 col-md-1 col-lg-1">
+      </div>
+      <div class="col-sm-10 col-md-10 col-lg-10">
+        <div id="carousel-example-generic" class="carousel slide">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/assets/docentes.jpg" alt="...">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Respeto</h1>
+                  <p>Se debe tener respeto por nuestros semejantes</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item pull-center">
+              <img src="/assets/docentes1.jpg" alt="...">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Trasendencia</h1>
+                  <p>Hay vida despues de la muerte al lado de nuestro Señor Dios</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item pull-center" align="center">
+              <img src="/assets/estudiantes.jpg" alt="...">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Solidaridad</h1>
+                  <p>Siempre debemos colaborar con los que nos rodean</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            </a>
+        </div>
+      </div><!-- /.carousel -->
+      <div class="col-sm-1 col-md-1 col-lg-1">
+      </div>
+    </div>
+  </div>
+
+    <hr class="featurette-divider">
+        <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+    <hr class="featurette-divider">
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+        <img class="img-circle pull-right" src="/assets/industria_cultural.jpg" width="400px">
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+            <h2 class="featurette-heading"><span class="muted">Industria cultural</span></h2>
+            <p class="lead">
+              En la sociedad se está comercializando todo el aspecto cultural, sea directa o indirectamente.
+              Un claro ejemplo de aquello, es la festividad religiosa de la virgen de Urkupiña, en la cual 
+              se debería bailar y apreciar la cultura por devoción, pero ésta se fue convirtiendo en un acto pagano
+              y poco religioso, con el consumo de bebidas alcohólicas, se comercializa indirectamente nuestra cultura.
+              Perdiendo algunos valores morales como lo es el respeto por la religión.
+            </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row">
+        <div class="col-lg-1"></div>
+        
+        <div class="col-lg-5">
+          <h2 class="featurette-heading"> <span class="muted">Consumismo</span></h2>
+          <p class="lead">El consumismo es un aspecto de la vida que nos rodea y acapara cada día más.
+            El aspecto negativo del consumismo es la pérdida de la cultura. Cada vez más el ambiente se está 
+            rodeando de productos que no son indispensables para la sociedad, pero gracias al marketing que se 
+            le otorga, la sociedad empieza a consumirlos. El consumismo destruye lo que es el casco antiguo de la provincia
+            de Quillacollo y nos lleva a contruir edificios modernos en vez de mantener aquellos que nos representan como cultura
+            y sociedad.
+          </p>
+        </div>
+
+        <div class="col-lg-4">
+        <br><br><br><br>
+        <img class="img-circle featurette-image pull-left" src="/assets/consumismo.jpg" width="600px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" style="margin-bottom:40px;">
+        <img class="img-circle featurette-image pull-left" src="/assets/ecologia.jpg" width="400px">
+        <h2 class="featurette-heading"><span class="muted">Falta de identidad</span></h2>
+        <p class="lead">La falta de una identidad, nos convierte en uno más del montón. Nos convierte en seres que caminan 
+          por un mismo camino olvidandonos de nuestra raiz, de nuestra cultura, costumbres e identidad. Sin diferenciarnos de otras sociedades,
+          tratando de imitar a grandes potencias sin valorar la riqueza cultural y ecológica que tiene nuestra sociedad.
+        </p>
+      </div>
+      <div class="row" align="center">
+        <legend><h1>¿Quienes estan involucrados?</h1></legend>
+      </div>
+      <div class="row" align="center">
+        <div class="col-lg-6 col-md-6">
+          <img class="img-circle" src="/assets/poblacion.jpg" align="center" alt="Generic placeholder image" width="180px">
+          <h2>Poblacion de Quillacollo</h2>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6 col-md-6"> 
+          <img class="img-circle" src="/assets/estudiantes_.jpg" align="center"  alt="Generic placeholder image" width="180px">
+          <h2>Estudiantes</h2>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="../../assets/js/jquery.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/holder.js"></script>-->
+  </body>
+</html>

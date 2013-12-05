@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proyecto Quillacollo</title>
+  	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
+
+  <link rel="shortcut icon" href="/assets/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+
+  <div class="row">
+    <div>
+      <% flash.each do |name, msg| %>
+        <div class="alert alert-info alert-dismissable">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">X</button>
+          <%= content_tag :div, msg, :id => "flash_#{name}" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row" >  
+    <div class="col-lg-3"></div>    
+    <a class="navbar-brand" href="/"><H1>Proyecto de transformacion Eco Cultural de Quillacollo</H1></a>   
+
+  </div>
+
+  <div class="row">
+    
+  </div>
+
+  <!-- Cuerpo de la pagina -->
+  <div class="row">
+    <!--Espacio Vacio del Lateral izquierdo.-->
+  
+
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <%= yield %>
+    </div> 
+  </div>
+      <!-- Pie de Pagina -->
+    <div class="row">
+        
+      </div>
+
+</body>
+</html>
